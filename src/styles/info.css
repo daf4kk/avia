@@ -1,0 +1,197 @@
+
+*{
+    box-sizing: border-box;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket{
+    position: relative;
+    width: 980px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+}
+.db-ticket{
+    position: relative;
+    width: 980px;
+    border-radius: 15px;
+    display: flex;
+}
+.solo{
+    height: 200px;
+    
+}
+.double{
+    height: 165px;
+}
+.double-ticket{
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    height: 320px ;
+    border-radius: 10px;
+    position: relative;
+    z-index:1;
+}
+.second-ticket{
+    box-shadow: 0px;
+    position: relative;
+    background-color: white;
+    z-index: 20;
+    top: -10px;
+}
+.second{
+    border-top: 1px dashed #5C87DB;
+}
+.avia-company{
+    width: 132px;
+    height: 200px;
+}
+.type{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 132px;
+    height: 26px;
+    background-color: #8BA5D8;
+    border-radius: 15px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+}
+.company-info{
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-name{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #5C5C5C;
+}
+.ticket-info{
+    height: 55px;
+    width: 537px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.info{
+    width: 109px;
+    height: 110px;
+}
+.time{
+    margin-top: 41px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #232323;
+}
+.town-date{
+    margin-top: 8px;
+    height: 32px;
+    color: #5C5C5C;
+}
+.town-date h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+.town-date h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.line{
+    position: absolute;
+    width: 297px;
+    height: 56px;
+    top: 32px;
+    left: 95px;
+    
+}
+.ticket-price{
+    width: 190px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(112, 121, 153, 0.3);
+    position: absolute;
+    right: 0;
+}
+
+.double-ticket-price{
+    height: 320px;
+    width: 190px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(112, 121, 153, 0.3);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 20;
+}
+.baggage{
+
+    width: 50px;
+    height: 110px;
+}
+.times{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.times p{
+    cursor: pointer;
+    width: 107px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #B7BAC1;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.active-time{   
+    border: none !important;
+    background-color: #DDE3EE;
+    height: 40px !important;
+    width: 130px !important;
+}
+.arr-time{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tkk{
+    position: relative;
+    z-index: 10;
+}
